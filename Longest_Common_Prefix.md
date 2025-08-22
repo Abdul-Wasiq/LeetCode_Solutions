@@ -1,3 +1,4 @@
 # LONGEST COMMON PREFIX
 ## Explanation:
-####   We have to find the same character by comparing in each elements in array.
+####   Find the longest starting part (prefix) that is common in all words of the array.
+###    ["flower", "flow", "flight"] → common prefix = "fl"
