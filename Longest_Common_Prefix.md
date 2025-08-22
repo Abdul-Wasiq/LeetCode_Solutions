@@ -45,6 +45,49 @@ Our logic is to compare each character in FIRST word with all other characters o
 
    now this logic will work only when condition is true means that if there is no or less prefix I mean not complete prefix like full word then it is applicable other wise it will not return anything when whole first word is prefix.
 
-## 3. Pseudo Code with Example walkthrough:
-    lets say we have an array
+## 4. Pseudo Code with Example walkthrough:
+   lets say we have an array strs = ["flower","flow","flight"]
+   now lets do operation of each line in the code,
+
+   strs = ["flower", "flow", "flight"]
+   prefix = ""
+   for (i=0 to 5) {
+      eachChar = strs[0][0] means eachChar = "f"
+      for (j = 1 to 2) {
+         if ("f"(eachChar) != "f"(strs[1][0]) it is not True {
+             print the prefix(it is empty now)
+             and stop the loop by exit() function }      
+      prefix "" = prefix "" + "f"
+      }
+      now for (j = 2 to 2) {
+      if ("f"(eachChar) != "f"(strs[2][0]) it is not true {
+          print the prefix(it is empty here)
+          and stop the loop by exit() function }
+   print the prefix if main loop is overed(but not overed yet_
+
+   now main loop has completed, let it run again:
+
+   for (i=1 to 5) {
+      eachChar = "l"
+      for (j = 1 to 2):
+         if ("l" != strs[j(1)][i(1)]("l")) NOT TRUE{
+            print the prefix 
+            and exit the function
+         now if ("l" != strs[j(2)[i(1)"l") NOT TRUE {
+            print the prefix
+            and exit the function
+      prefix"f" = prefix"f" + "l"
+      }
+
+  for (i=2 to 5) {
+      eachChar = "o"
+      for (j=1 to 2) {
+         if ("o" != strs[j(1)[i(2)]("o") NOT TRUE {
+            print the prefix which is "fl"
+            and exit the function }
+      for (j=2 to 2) {
+         if ("o" != strs[j(2)[i(2)]("i") TRUE {
+            print the prefix which is "fl"
+            and exit the function
+}
    
