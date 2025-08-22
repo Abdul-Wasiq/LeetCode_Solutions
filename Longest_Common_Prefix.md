@@ -13,18 +13,22 @@ class Solution(object):
         :rtype: str
         """
 
+        # Store the common prefix
         prefix = ""
 
+        # Loop through each character index of the first word
         for i in range(len(strs[0])):
-            eachChar = strs[0][i]
+            eachChar = strs[0][i] # character from first word
 
+            # Compare with the same position in other words
             for j in range(1, len(strs)):
-                if (i >= len(strs[j]) or eachChar != strs[j][i] ):
+                if (i >= len(strs[j]) or eachChar != strs[j][i] ):  # mismatch → stop
                     return prefix
                     exit()                    
-        
+            # If matched in all → add to prefix
             prefix = prefix + eachChar
-        
+
+        # If no mismatch → full first word is the prefix
         return prefix
 
          
