@@ -34,7 +34,7 @@ class Solution(object):
          
 ```
 ## 3. Explanation:
-    Our logic is to compare each character in FIRST word with all other characters of OTHER words.
+Our logic is to compare each character in FIRST word with all other characters of OTHER words.
     so first thing we will do is that we will make variable of prefix and let it be empty string,
     we have to take the loop which runs from first character to last character of first word,
     and we will make variable with connected loop which gets character one by one,
