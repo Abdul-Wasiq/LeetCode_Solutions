@@ -1,4 +1,4 @@
-# 118. Convert Sorted Array to Binary Search Tree
+# 118. Pascal's Triangle
 ## 1. Problem Explain:
 - Pascal’s Triangle is a triangle of numbers where:
 - First row is [1].
