@@ -1,24 +1,22 @@
 # 169 Majority Element
 ## 1. Problem Explain:
-   We have to get the element which appears more than length of an array times.
+   Find the element that appears more than n/2 times in an array.
 
 ## 2. Code:   
 ```
-class Solution(object):
+class Solution:
     def majorityElement(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: int
-        """
-        nums = sorted(nums)
-        return nums[len(nums) // 2]
+        return sorted(nums)[len(nums)//2]
 ```
 
 ## 3. Explanation:
-1- Our logic to get majority number is:
-- We will make new Array/List with a sorted version of original Array
-- then we will get center element of the sorted array
-- and this will be our majority element
+- Sort the array.
 
-## 3. Explanation:
+- The majority element always appears at the middle index.
+
+## 4. Pseudo Code with Example walkthrough:
+#### nums = [3,2,3] → sorted → [2,3,3] → middle nums[1] = 3 
+
+
+
         
