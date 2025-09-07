@@ -1,4 +1,4 @@
-# 283. Missing Number
+# 268. Missing Number
 ## 1. Problem Explain:
   We just have to return value which is missing in the sequence.
   For Example: nums = [3,0,1]
