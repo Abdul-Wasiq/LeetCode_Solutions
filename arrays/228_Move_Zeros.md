@@ -1,4 +1,4 @@
-# 228. Move Zeros
+# 223. Move Zeros
 ## 1. Problem Explain:
   We just have to return value which is missing in the sequence.
   For Example: nums = [3,0,1]
