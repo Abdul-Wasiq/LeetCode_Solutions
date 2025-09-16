@@ -33,23 +33,23 @@ class Solution(object):
 ```
 
 ## 4. Pseudo Code with Example walkthrough:
--1 word = Hello:
+1. word = Hello:
 - Hello is not in qwertyuiop (False)
 - Hello is not in asdfghjkl (False)
 - Hello is not in zxcvbnm (False)
 
--2 word = Alaska: 
+2. word = Alaska: 
 - Alaska is not in qwertyuiop (False)
 - Alaska is in asdfghjkl (True) -> newArr = ["Alaska"]
 
--3 word = Dad:
+3. word = Dad:
 - Dad is not in qwertyuiop (False)
 - Dad is in asdfghjkl (True) -> newArr = ["Alaska", "Dad"]
 
--4 word = Peace:
+4. word = Peace:
 - Peace is not in qwertyuiop (False)
 - Peace is not in asdfghjkl (False)
 - Peace is not in zxcvbnm (False)
 
--5 Loop Finished:
--   return newArr which is Alaska Dad
+5. Loop Finished:
+- return newArr which is Alaska Dad
