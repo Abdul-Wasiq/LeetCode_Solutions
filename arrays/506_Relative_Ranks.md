@@ -9,11 +9,12 @@
 - for example: dictionary= [10:"Gold",9: "Silver",8:"Bronze",4:"4",3:"5"]
 - now loop through score(original array)
 - and add values of score
-- like score = [10,3,8,9,4] -> 10= Gold (newArr = ["Gold Medal"])
-                            -> 3 = "5" (newArr = ["Gold Medal", "5")
-                            -> 8 = "Bronze" (newArr = ["Gold Medal", "5", "Bronze"]
-                            -> 9 = "Silver" (newArr = ["Gold Medal", "5", "Bronze", "Silver"]
-                            -> 4 = "4" (newArr = ["Gold Medal", "5", "Bronze", "Silver", "4"]
+- like score = [10,3,8,9,4] \
+                            -> 10= Gold (newArr = ["Gold Medal"]) \
+                            -> 3 = "5" (newArr = ["Gold Medal", "5") \
+                            -> 8 = "Bronze" (newArr = ["Gold Medal", "5", "Bronze"] \
+                            -> 9 = "Silver" (newArr = ["Gold Medal", "5", "Bronze", "Silver"] \
+                            -> 4 = "4" (newArr = ["Gold Medal", "5", "Bronze", "Silver", "4"] 
 - return newArr
 
 ## 2. Code:
