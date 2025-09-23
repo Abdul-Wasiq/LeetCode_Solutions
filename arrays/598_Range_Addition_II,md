@@ -1,4 +1,0 @@
-# 598: Range Addition II 
-## 1. Problem Explain:
-   in ops 2D array, rows and columns are increasing by 1, 
-   for example: ops[2,3] means, increase 1 all elements under 2nd rows and 3rd column
